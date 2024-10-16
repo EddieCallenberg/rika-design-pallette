@@ -1,0 +1,18 @@
+a.btn {
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    &:hover {
+        box-shadow: $sahdow-full;
+        cursor: pointer;
+    }
+}
+
+.btn-round {
+    padding: 12px 16px;
+    border-radius: 100px;
+    &:hover {
+        box-shadow: $sahdow-full;
+        cursor: pointer;
+    }
+}
